@@ -1,2 +1,46 @@
 # Ignore the following files and directories
 5. Data
+# Ignorar todo el contenido de la carpeta data
+data/*
+!data/.gitkeep
+!data/README.md
+
+# Archivos grandes de datos
+*.csv
+*.parquet
+*.json
+*.xlsx
+*.xls
+*.zip
+*.tar
+*.gz
+*.rar
+*.hdf5
+*.npz
+*.npy
+
+# Archivos temporales y de entorno
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+.env
+.venv/
+*.egg-info/
+*.egg
+
+# Archivos de Jupyter
+*.ipynb_checkpoints
+
+# Archivos de compilación o empaquetado
+build/
+dist/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Otros posibles directorios de caché
+.cache/
